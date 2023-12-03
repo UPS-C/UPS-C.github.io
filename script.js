@@ -1,3 +1,3 @@
 document.getElementById("ECS").addEventListener("click", function(){
-  window.location.href = "https://radmanplays.github.io";
+  window.open("https://radmanplays.github.io", "_blank");
 });
