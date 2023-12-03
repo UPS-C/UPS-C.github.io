@@ -4,6 +4,7 @@ html {
   page-color: #5A5A5A;
 }
 .button {
+  border-radius: 12px;
   background-color: #4CAF50;
   border: none;
   color: white;
