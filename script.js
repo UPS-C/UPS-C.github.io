@@ -10,6 +10,6 @@ document.getElementById("darkModeButton").addEventListener("click", function(){
 });
 
 document.getElementById("lightModeButton").addEventListener("click", function(){
-  document.body.style.backgroundColor = "#f2f2f2";
+  document.body.style.backgroundColor = "#ffffff";
   document.body.style.color = "black";
 });
