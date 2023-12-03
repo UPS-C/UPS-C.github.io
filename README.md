@@ -1,2 +1,2 @@
 # Website
-This is The Website For hosting static web pages
+This is The main hub Website for all Ecraft & Other stuff
