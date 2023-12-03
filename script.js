@@ -1,3 +1,3 @@
-document.getElementById("myButton").addEventListener("click", function(){
+document.getElementById("ECS").addEventListener("click", function(){
   window.location.href = "https://radmanplays.github.io";
 });
