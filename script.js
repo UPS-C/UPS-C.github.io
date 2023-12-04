@@ -1,8 +1,8 @@
 document.getElementById("buttonMC").addEventListener("click", function(){
-  window.open("https://radmanplays.github.io", "_blank");
+  window.open("picles");
 });
 document.getElementById("buttonP").addEventListener("click", function(){
-  window.open("picles", "_blank");
+  window.open("picles");
 });
 document.getElementById("darkModeButton").addEventListener("click", function(){
   document.body.style.backgroundColor = "#333";
