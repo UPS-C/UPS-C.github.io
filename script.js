@@ -1,8 +1,8 @@
 document.getElementById("buttonMC").addEventListener("click", function(){
-  location.href = "picles";
+  location.href = "picles" target="_self";
 });
 document.getElementById("buttonP").addEventListener("click", function(){
-  location.href = "picles";
+  location.href = "picles" target="_self";
 });
 document.getElementById("darkModeButton").addEventListener("click", function(){
   document.body.style.backgroundColor = "#333";
