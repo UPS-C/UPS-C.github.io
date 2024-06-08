@@ -36,7 +36,7 @@
         } else if(window.WebActivity) { // KaiOS 3.0
 		  var act = new WebActivity("configure", {
 			target: "device",
-			section: "developer"
+			section: "dev"
 		  })
 		  act.start().catch(function(e){window.alert('Cannot launch developer menu: ' + e)})
 		} else {
