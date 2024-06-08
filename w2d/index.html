@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>W2D KaiOS Universal Jailbreak</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Luxferre,tbrrss">
+    <meta name="description" content="W2D KaiOS Universal Jailbreak">
+    <meta name="keywords" content="jailbreak,mobile,research,hacking,js,kaios">
+  </head>
+  <body>
+    <header>
+      <h1>W2D KaiOS jailbreak</h1>
+    </header>
+    <main>
+      <section>
+        <button id="w2d">Launch Developer menu</button>
+      </section>
+    </main>
+    <footer>
+      <hr>
+      <p>© <a href="https://bananahackers.net">BananaHackers</a> 2020 — present<br>credits to Luxferre and tbrrss</p>
+    </footer>
+    <script>
+      document.getElementById('w2d').addEventListener('click', function(e) {
+        if(window.MozActivity) {
+          var act = new MozActivity({
+            name: "configure",
+            data: {
+              target: "device",
+              section: "admin"
+            }
+          })
+        } else if(window.WebActivity) { // KaiOS 3.0
+		  var act = new WebActivity("configure", {
+			target: "device",
+			section: "developer"
+		  })
+		  act.start().catch(function(e){window.alert('Cannot launch developer menu: ' + e)})
+		} else {
+          window.alert('Please open the page from the device itself!')
+        }
+      }, false)
+    </script>
+</body></html>
